@@ -13,9 +13,9 @@ Built with a frozen **ResNet-18** backbone as a feature extractor and a small tr
 - **Activity log** — every action (classes added, images classified, training runs) is logged in-app
 
 ## 🖼️ Screenshots
-![Sample1](images/preview/gameclass1.png)
-![Sample2](images/preview/gameclass2.png)
-![Sample3](images/preview/gameclass3.png)
+![Sample1](images/preview/imgclass1.png)
+![Sample2](images/preview/imgclass2.png)
+![Sample3](images/preview/imgclass3.png)
 
 ## 🧠 How it works
 

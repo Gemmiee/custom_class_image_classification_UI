@@ -12,6 +12,11 @@ Built with a frozen **ResNet-18** backbone as a feature extractor and a small tr
 - **Persistent models** — trained weights and class metadata are saved to disk, so you can close the app and pick up where you left off
 - **Activity log** — every action (classes added, images classified, training runs) is logged in-app
 
+## 🖼️ Screenshots
+![Sample1](images/preview/gameclass1.png)
+![Sample2](images/preview/gameclass2.png)
+![Sample3](images/preview/gameclass3.png)
+
 ## 🧠 How it works
 
 The app uses a ResNet-18 pretrained on ImageNet as a fixed feature extractor — its weights are frozen and never updated. On top of it sits a single trainable linear layer (the "head") with one output per class you've defined. Training only updates this head, using the frozen backbone's features as input, which is why training stays fast even on CPU.
